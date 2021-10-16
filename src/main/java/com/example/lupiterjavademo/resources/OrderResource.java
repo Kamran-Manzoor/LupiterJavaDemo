@@ -1,4 +1,4 @@
-package com.example.lupiterjavademo;
+package com.example.lupiterjavademo.resources;
 
 
 import com.example.lupiterjavademo.models.Order;
