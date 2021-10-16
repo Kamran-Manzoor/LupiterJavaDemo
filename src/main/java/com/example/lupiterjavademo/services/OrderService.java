@@ -15,7 +15,7 @@ public class OrderService {
         // pre-defined map
         orders.put(1, new Order(1, 23, 2, 46, 400.0, "Pencil"));
         orders.put(2, new Order(2, 23, 1, 30, 400.0, "Bag"));
-        orders.put(3, new Order(2, 23, 2, 46, 400.0, "Glass"));
+        orders.put(3, new Order(3, 23, 2, 46, 400.0, "Glass"));
     }
 
 

@@ -26,7 +26,7 @@ public class OrderResource {
     }
 
     @GET
-    @Path("customerOrders/{customerId}")
+    @Path("{customerId}")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Order> getOrdersByCustomerId(@PathParam("customerId") int customerId) {
         return service.getOrdersByCustomerId(customerId);

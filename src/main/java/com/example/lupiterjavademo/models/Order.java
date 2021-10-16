@@ -8,6 +8,9 @@ public class Order {
     private int productId;
     private int quantity;
 
+    public Order() {
+    }
+
     public Order(int productId, int quantity) {
         this.productId = productId;
         this.quantity = quantity;
@@ -63,10 +66,14 @@ public class Order {
     }
 
     public String getProductTitle() {
+        if (productTitle == null) {
+            productTitle = "";
+        }
         return productTitle;
     }
 
     public void setProductTitle(String productTitle) {
+
         this.productTitle = productTitle;
     }
 
